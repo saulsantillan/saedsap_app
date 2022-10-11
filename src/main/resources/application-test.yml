@@ -1,0 +1,4 @@
+# "test" suffix properties file. Scopes name samples: "test", "web-test", "api-test", etc.
+# Overrides application.yml default properties
+
+
