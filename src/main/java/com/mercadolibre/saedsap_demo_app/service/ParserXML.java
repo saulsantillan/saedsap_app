@@ -109,6 +109,7 @@ public class ParserXML {
     private Node validaREJECT(XPath xPath,Node transaccion) throws XPathExpressionException {
         String txSts = (String) xPath.evaluate("TxInfAndSts/TxSts/text()", transaccion, XPathConstants.STRING);
         if(txSts.equals("RJCT")){
+            log.info("transaccion con sts RJCT");
             NodeList addInfNode = (NodeList) xPath.evaluate("TxInfAndSts/StsRsnInf/AddtlInf", transaccion, XPathConstants.NODESET);
             StringBuffer addInf= new StringBuffer();
             for(int j = 0; j <addInfNode.getLength(); j++) {
