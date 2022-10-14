@@ -81,20 +81,12 @@ public class ParserXML {
     }
 
     private List<String> parserTrans(XPath xPath,List<Node> listaTransacciones,Document doc,Element body) throws XPathExpressionException, TransformerException {
-        log.info("Se realizan acciones no dinamicas OrgnlGrpInfAndSts");
+        log.info("Elimina nodo OrgnlGrpInfAndSts");
         Node orgnlGrpInfAndStsNode = (Node) xPath.evaluate("/Document/CstmrPmtStsRpt/OrgnlGrpInfAndSts", doc, XPathConstants.NODE);;
-        Node node = (Node) xPath.evaluate("OrgnlNbOfTxs", orgnlGrpInfAndStsNode, XPathConstants.NODE);
-        node.setTextContent("1");
-        Node nbOfTxsPerStsNode = (Node) xPath.evaluate("NbOfTxsPerSts", orgnlGrpInfAndStsNode, XPathConstants.NODE);
-        nbOfTxsPerStsNode.getParentNode().removeChild(nbOfTxsPerStsNode);
-        Node ctrlSumNode = (Node) xPath.evaluate("CtrlSum", orgnlGrpInfAndStsNode, XPathConstants.NODE);
-
+        orgnlGrpInfAndStsNode.getParentNode().removeChild(orgnlGrpInfAndStsNode);
         Node cstmrPmtStsRptNode = (Node) xPath.evaluate("/Document/CstmrPmtStsRpt", doc, XPathConstants.NODE);;
         List<String> transancionesIndividuales= new ArrayList<>();
-
         for(int i = 0; i < listaTransacciones.size(); i++) {
-            Node ammount = (Node) xPath.evaluate("TxInfAndSts/OrgnlTxRef/Amt/InstdAmt", listaTransacciones.get(i), XPathConstants.NODE);
-            ctrlSumNode.setTextContent(ammount.getTextContent().trim());
             Node trans=this.validaREJECT(xPath,listaTransacciones.get(i));
             if(i>=1) {
                 cstmrPmtStsRptNode.replaceChild(trans, listaTransacciones.get(i - 1));

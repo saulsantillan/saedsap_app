@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0437f6-3f8c-493c-a4fd-607306efa173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/parseaXml/ParseaXml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/util/NAMESPACE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercadolibre/saedsap_demo_app/integration/PingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mercadolibre/saedsap_demo_app/integration/PingControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/service/ParserXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/service/ParserXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2G0efCqHCreMo9OcPRCaZO24tB4" />
   <component name="ProjectViewState">
@@ -36,15 +33,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="JUnit.ParserXMLTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,7 +144,8 @@
       <updated>1665530030365</updated>
       <workItem from="1665530032224" duration="1298000" />
       <workItem from="1665531499351" duration="1572000" />
-      <workItem from="1665599491037" duration="48000" />
+      <workItem from="1665599491037" duration="910000" />
+      <workItem from="1665774866357" duration="392000" />
     </task>
     <servers />
   </component>

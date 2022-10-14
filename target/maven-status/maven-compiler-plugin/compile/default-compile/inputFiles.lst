@@ -1,0 +1,14 @@
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/config/WebConfig.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/exceptions/ApiException.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/config/ExecutorConfig.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/controller/PingController.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/exceptions/ApiError.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/exceptions/InternalServerErrorException.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/dtos/SampleDTO.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/service/ParserXML.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/Application.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/config/ControllerExceptionHandler.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/util/ScopeUtils.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/config/SpringDocConfig.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/beans/RandomSampleBean.java
+/Users/ssantillan/Documents/saedsapgit/saedsap_app/src/main/java/com/mercadolibre/saedsap_demo_app/config/ObjectMapperConfig.java

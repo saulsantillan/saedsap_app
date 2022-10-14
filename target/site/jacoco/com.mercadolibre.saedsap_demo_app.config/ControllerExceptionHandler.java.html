@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ControllerExceptionHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">saedsap-demo-app</a> &gt; <a href="index.source.html" class="el_package">com.mercadolibre.saedsap_demo_app.config</a> &gt; <span class="el_source">ControllerExceptionHandler.java</span></div><h1>ControllerExceptionHandler.java</h1><pre class="source lang-java linenums">package com.mercadolibre.saedsap_demo_app.config;
+
+import com.mercadolibre.saedsap_demo_app.exceptions.ApiError;
+import com.mercadolibre.saedsap_demo_app.exceptions.ApiException;
+import com.newrelic.api.agent.NewRelic;
+import javax.servlet.http.HttpServletRequest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.servlet.NoHandlerFoundException;
+
+/**
+ * Basic handling for exceptions.
+ */
+@ControllerAdvice
+<span class="fc" id="L19">public class ControllerExceptionHandler {</span>
+
+<span class="fc" id="L21">  private static final Logger LOGGER = LoggerFactory.getLogger(ControllerExceptionHandler.class);</span>
+
+  /**
+   * Handler for not found routes.
+   * 
+   * @param req the incoming request.
+   * @param ex the exception thrown when route is not found.
+   * @return {@link ResponseEntity} with 404 status code and the route that was not found in the body.
+   */
+  @ExceptionHandler(NoHandlerFoundException.class)
+  public ResponseEntity&lt;ApiError&gt; noHandlerFoundException(
+      HttpServletRequest req, NoHandlerFoundException ex) {
+<span class="fc" id="L33">    ApiError apiError =</span>
+        new ApiError(
+            &quot;route_not_found&quot;,
+<span class="fc" id="L36">            String.format(&quot;Route %s not found&quot;, req.getRequestURI()),</span>
+<span class="fc" id="L37">            HttpStatus.NOT_FOUND.value());</span>
+<span class="fc" id="L38">    return ResponseEntity.status(apiError.getStatus()).body(apiError);</span>
+  }
+
+  /**
+   * Handler for external API exceptions.
+   *  
+   * @param e the exception thrown during a request to external API.
+   * @return {@link ResponseEntity} with status code and description provided for the handled exception.
+   */
+  @ExceptionHandler(ApiException.class)
+  protected ResponseEntity&lt;ApiError&gt; handleApiException(ApiException e) {
+<span class="fc" id="L49">    Integer statusCode = e.getStatusCode();</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">    boolean expected = HttpStatus.INTERNAL_SERVER_ERROR.value() &gt; statusCode;</span>
+<span class="fc" id="L51">    NewRelic.noticeError(e, expected);</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">    if (expected) {</span>
+<span class="fc" id="L53">      LOGGER.warn(&quot;Internal Api warn. Status Code: &quot; + statusCode, e);</span>
+    } else {
+<span class="fc" id="L55">      LOGGER.error(&quot;Internal Api error. Status Code: &quot; + statusCode, e);</span>
+    }
+
+<span class="fc" id="L58">    ApiError apiError = new ApiError(e.getCode(), e.getDescription(), statusCode);</span>
+<span class="fc" id="L59">    return ResponseEntity.status(apiError.getStatus()).body(apiError);</span>
+  }
+
+  /**
+   * Handler for internal exceptions.
+   * 
+   * @param e the exception thrown during request processing.
+   * @return {@link ResponseEntity} with 500 status code and description indicating an internal error.
+   */
+  @ExceptionHandler(Exception.class)
+  protected ResponseEntity&lt;ApiError&gt; handleUnknownException(Exception e) {
+<span class="fc" id="L70">    LOGGER.error(&quot;Internal error&quot;, e);</span>
+<span class="fc" id="L71">    NewRelic.noticeError(e);</span>
+
+<span class="fc" id="L73">    ApiError apiError =</span>
+        new ApiError(
+<span class="fc" id="L75">            &quot;internal_error&quot;, &quot;Internal server error&quot;, HttpStatus.INTERNAL_SERVER_ERROR.value());</span>
+<span class="fc" id="L76">    return ResponseEntity.status(apiError.getStatus()).body(apiError);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

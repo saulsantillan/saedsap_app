@@ -1,0 +1,8 @@
+com/mercadolibre/saedsap_demo_app/integration/ControllerExceptionHandlerTest.class
+com/mercadolibre/saedsap_demo_app/integration/IntegrationTest.class
+com/mercadolibre/saedsap_demo_app/service/ParserXMLTest.class
+com/mercadolibre/saedsap_demo_app/unit/beans/RandomSampleBeanTest.class
+com/mercadolibre/saedsap_demo_app/integration/GenerateDocTest.class
+com/mercadolibre/saedsap_demo_app/integration/ControllerTest.class
+com/mercadolibre/saedsap_demo_app/integration/PingControllerTest.class
+com/mercadolibre/saedsap_demo_app/unit/ScopeUtilTest.class
