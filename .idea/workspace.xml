@@ -4,116 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f0437f6-3f8c-493c-a4fd-607306efa173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/application.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/application.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-integration_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-local.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/beans/RandomSampleBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/config/ControllerExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/config/ExecutorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/config/ObjectMapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/config/SpringDocConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/controller/PingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/dtos/SampleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/exceptions/ApiError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/exceptions/ApiException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/exceptions/InternalServerErrorException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/service/ParserXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/saedsap_demo_app/util/ScopeUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.beans/RandomSampleBean.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.beans/RandomSampleBean.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.beans/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.beans/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ControllerExceptionHandler.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ControllerExceptionHandler.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ExecutorConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ExecutorConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ObjectMapperConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/ObjectMapperConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/SpringDocConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/SpringDocConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/WebConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/WebConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.config/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.controller/PingController.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.controller/PingController.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.controller/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.controller/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.dtos/SampleDTO.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.dtos/SampleDTO.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.dtos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.dtos/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.service/ParserXML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.service/ParserXML.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.service/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.service/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.util/ScopeUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.util/ScopeUtils.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.util/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app.util/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app/Application.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app/Application.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.mercadolibre.saedsap_demo_app/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.integration.ControllerExceptionHandlerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.integration.GenerateDocTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.integration.PingControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.service.ParserXMLTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.unit.ScopeUtilTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mercadolibre.saedsap_demo_app.unit.beans.RandomSampleBeanTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/integration/ControllerExceptionHandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/integration/ControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/integration/GenerateDocTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/integration/IntegrationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/integration/PingControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/service/ParserXMLTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/unit/ScopeUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mercadolibre/saedsap_demo_app/unit/beans/RandomSampleBeanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logback-test.xml" beforeDir="false" />
+    <list default="true" id="5f0437f6-3f8c-493c-a4fd-607306efa173" name="Default Changelist" comment="los de trans rechazada">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/service/PruebasTontas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/service/ParserXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/saedsap_demo_app/service/ParserXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mercadolibre/saedsap_demo_app/service/ParserXMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mercadolibre/saedsap_demo_app/service/ParserXMLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,7 +43,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.ParserXMLTest">
+  <component name="RunManager" selected="JUnit.ParserXMLTest.parserTransaccionesREJECT">
+    <configuration name="PruebasTontas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mercadolibre.saedsap_demo_app.service.PruebasTontas" />
+      <module name="saedsap_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mercadolibre.saedsap_demo_app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -161,6 +81,38 @@
       <option name="PACKAGE_NAME" value="com.mercadolibre.saedsap_demo_app.service" />
       <option name="MAIN_CLASS_NAME" value="com.mercadolibre.saedsap_demo_app.service.ParserXMLTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserXMLTest.parserTransaccionesREJECT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saedsap_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mercadolibre.saedsap_demo_app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mercadolibre.saedsap_demo_app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mercadolibre.saedsap_demo_app.service.ParserXMLTest" />
+      <option name="METHOD_NAME" value="parserTransaccionesREJECT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserXMLTest.parserTransaccionessinBTM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="saedsap_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mercadolibre.saedsap_demo_app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mercadolibre.saedsap_demo_app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mercadolibre.saedsap_demo_app.service.ParserXMLTest" />
+      <option name="METHOD_NAME" value="parserTransaccionessinBTM" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,7 +183,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParserXMLTest.parserTransaccionesREJECT" />
         <item itemvalue="JUnit.ParserXMLTest" />
+        <item itemvalue="Application.PruebasTontas" />
+        <item itemvalue="JUnit.ParserXMLTest.parserTransaccionessinBTM" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +201,9 @@
       <workItem from="1665530032224" duration="1298000" />
       <workItem from="1665531499351" duration="1572000" />
       <workItem from="1665599491037" duration="910000" />
-      <workItem from="1665774866357" duration="1486000" />
+      <workItem from="1665774866357" duration="5467000" />
+      <workItem from="1667493471492" duration="1772000" />
+      <workItem from="1668105451749" duration="5094000" />
     </task>
     <servers />
   </component>

@@ -81,9 +81,11 @@ public class ParserXML {
     }
 
     private List<String> parserTrans(XPath xPath,List<Node> listaTransacciones,Document doc,Element body) throws XPathExpressionException, TransformerException {
-        log.info("Elimina nodo OrgnlGrpInfAndSts");
         Node orgnlGrpInfAndStsNode = (Node) xPath.evaluate("/Document/CstmrPmtStsRpt/OrgnlGrpInfAndSts", doc, XPathConstants.NODE);;
-        orgnlGrpInfAndStsNode.getParentNode().removeChild(orgnlGrpInfAndStsNode);
+        if(orgnlGrpInfAndStsNode!=null){
+            log.info("Elimina nodo OrgnlGrpInfAndSts");
+            orgnlGrpInfAndStsNode.getParentNode().removeChild(orgnlGrpInfAndStsNode);
+        }
         Node cstmrPmtStsRptNode = (Node) xPath.evaluate("/Document/CstmrPmtStsRpt", doc, XPathConstants.NODE);;
         List<String> transancionesIndividuales= new ArrayList<>();
         for(int i = 0; i < listaTransacciones.size(); i++) {
